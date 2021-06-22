@@ -1,0 +1,19 @@
+{
+  "name": "meta-dance-academy",
+  "version": "1.0.0",
+  "description": "This is a popular dance academy website",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "mongoose": "^5.12.14",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MetaZod",
+  "license": "ISC"
+}

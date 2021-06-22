@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pacifico&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.tag{
+    
+    align-items: center;
+    display: flex;
+
+}
+.tag img{
+
+    height: 30px;
+    width: 40px;
+}
+.tag h5{
+   
+    
+}
+#navbar{
+    background-color: #dcddaf;
+    padding: 10px;
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+#navbar li {
+    list-style: none;
+    margin-left: 20px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+
+}
+#navbar li a:hover{
+
+    color: gray
+
+}
+    
+
+#intro{
+   
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        flex-direction: column;
+        background: url("/static/woman-3056863_1280.jpg")center/cover no-repeat;
+        height: 800px;
+        padding: 10px;
+        opacity: 0.9;
+
+        
+    }
+#intro div.a1{
+        
+        font-size: 40px;
+        padding: 10px;
+    }
+#intro div.a2{
+        font-size: 30px;
+        padding: 10px;        
+    }   
+#intro div.a3{
+    font-size: 20px;
+    padding: 10px;
+}
+#mission{
+
+    height:400px;
+    align-items: center;
+    background-image: linear-gradient(to top right, rgb(255 255 95), white);
+   
+    
+}
+
+#mission h2{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.card h3{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    /* margin-left: 80px; */
+}
+.card p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.card1:hover{
+    /* height: 350px;
+    width: 350px; */
+    border: none;
+    
+}
+.card2:hover{
+    /* height: 350px;
+    width: 350px; */
+    border: none;
+    
+}
+.card3:hover{
+    /* height: 350px;
+    width: 350px; */
+    border: none;
+    
+}
+.card4:hover{
+    /* height: 350px;
+    width: 350px; */
+    border: none;
+    
+}
+.card1{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    
+}
+.card2{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom right, rgb(85, 233, 85), yellow);
+}
+.card3{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom right, white, yellow);
+    margin-left: 60px;
+}
+.card4{
+    background-image: linear-gradient(to bottom right, pink, yellow);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+    margin-left: 80px;
+}
+#mid{
+    height: 400px ;
+    
+    padding-top: 14px;
+    
+    
+}
+#mid h2{
+    justify-content: center;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+#mid div.logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(8, 5vw); */
+    grid-gap: 15px;
+    padding: 12px;
+    margin: 10px;
+}
+   
+.logo1{
+
+    grid-column-start: 2;
+    cursor: pointer;
+
+}       
+.logo3{
+
+    grid-column-start: 4;
+    cursor: pointer;
+}       
+.logo4{
+
+    grid-column-start: 6;
+    cursor: pointer;
+}       
+#footer{
+    margin-top: 10px;
+    height: 124px;
+    background: linear-gradient(174deg, #dce96f, transparent);
+
+}
+#footer h3{
+    display: flex;
+    padding-top: 8px;
+    justify-content: center;
+    
+}
+.handle{
+    display: flex;
+    justify-content: center;
+    
+}
+.handle h5{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footerhandle{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+.footerhandle img{
+    
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    justify-content: center
+}
+.footerhandle img:hover{
+
+    opacity: 0.6;
+}

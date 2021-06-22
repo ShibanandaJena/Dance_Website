@@ -1,0 +1,37 @@
+doctype html 
+html
+  head 
+    title Meta Dance Academy     
+    block scripts
+        
+    block style 
+
+  body 
+    nav#navbar.top   
+        ul#navul 
+                .tag 
+                    img(src="/static/logo1.png", alt="loading..")
+                    h5 MDA 
+                li #[a Home]
+                li #[a About]
+                li #[a(href="/contact") Contact Us]
+                li #[a Gallery]
+                li #[a Packages]
+     
+    block content
+    footer#footer 
+         h3 Copyright 2021-2050 © META DANCE ACADEMY. All Rights Reserved
+
+         .handle 
+            h5 FOLLOW US ON
+
+         .footerhandle 
+                a(href="http://www.twitter.com",target="_new")
+                    img(src="/static/footerlogo/twitter.png", alt="image",class="handler")
+    
+                a(href="http://www.facebook.com",target="_new")
+                    img(src="/static/footerlogo/fb.png", alt="image",class="handler")
+                a(href="http://www.instagram.com",target="_new")
+                    img(src="/static/footerlogo/instagram.png", alt="image",class="handler")
+
+                

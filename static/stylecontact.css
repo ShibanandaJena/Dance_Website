@@ -1,0 +1,45 @@
+.container {
+    background: linear-gradient(174deg, #9de96a, transparent);;
+    min-height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+    
+}
+h1{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+#myform{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+}
+.input{
+    border: 3px solid rgb(114, 107, 14);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 50%;
+}
+.btn{
+
+    border: sandybrown;
+    background-color: rgb(189, 189, 25);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(224, 224, 56);
+
+}
